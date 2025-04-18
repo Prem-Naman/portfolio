@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo"><h1><strong>PREM</strong> NAMAN</h1></div>
+            <div class="links">
+                <div class="dropdown">
+                    <a href="#">Services <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#3d-design">3D Site Building</a>
+                        <a href="#ai-agent">AI Agent Provider</a>
+                        <a href="#portfolio-design">Customizable Portfolio Designer</a>
+                    </div>
+                </div>
+                <a href="#works">Works</a>
+                <a href="#notes">Notes</a>
+                <a href="#contact">Contacts</a>
+            </div>
+            <div class="social-links">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/rampoyon/?__pwa=1" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="mail">
+                    <a href="mailto:namanprem492@gmail.com">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="content">
+            <div class="heading" data-aos="fade-right">
+                <h3>Front-end Developer</h3>
+                <h1>Talk is Cheap. <span>Show me the Code</span></h1>
+                <p>I design and code beautifully simple things. and I love what I do.</p>
+                <button>LET'S CHAT</button>
+            </div>
+            <div class="image" data-aos="fade-left">
+                <img src="profile.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="service-container">
+            <!-- 3D Site Building -->
+            <div class="service-item" id="3d-design" data-aos="fade-up">
+                <i class="fa-solid fa-cube service-icon"></i>
+                <h3>3D Site Building</h3>
+                <p>Create immersive 3D websites with WebGL and Three.js integration</p>
+            </div>
+
+            <!-- AI Agent Provider -->
+            <div class="service-item" id="ai-agent" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-brain service-icon"></i>
+                <h3>AI Agent Provider</h3>
+                <p>Develop custom AI agents for automation and smart interactions</p>
+            </div>
+
+            <!-- Portfolio Designer -->
+            <div class="service-item" id="portfolio-design" data-aos="fade-up" data-aos-delay="400">
+                <i class="fa-solid fa-palette service-icon"></i>
+                <h3>Customizable Portfolios</h3>
+                <p>Unique portfolio solutions with dynamic content management</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="quality">
+        <div class="experience">
+            <h1>1</h1>
+            <label>YEARS EXPERIENCE</label>
+        </div>
+        <div class="experience gap">
+            <h1>5</h1>
+            <label>PROJECTS COMPLETED AS A FREELANCER</label>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 800,
+            easing: 'ease-in-out',
+            delay: 100
+        });
+    </script>
+</body>
+</html>
